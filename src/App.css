@@ -53,7 +53,8 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  /* background-color: #bfbfbf; */
+  background-color: #ff9900;
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -65,7 +66,22 @@
     border: none;
     outline: none;
     cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 2px 4px darkgray;
+    transition: all 0.2s ease-in;
+    z-index: 1;
 }
+
+.custom__button:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 4px darkgray;
+}
+
+
+
+
+
+
 
 .p__cormorant {
   font-family: var(--font-base);
@@ -76,6 +92,17 @@
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
+}
+
+.p__cormorant1 {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 35px;
 }
 
 .p__cormorant2 {
@@ -109,6 +136,26 @@
   line-height: 28px;
   font-size: 16px;
 }
+
+/* .p__opensans-logo {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: var(--color-white);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  line-height: 28px;
+  font-size: 30px;
+}
+
+.app__opensans-logo a {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.p__opensans-logo a:hover {
+  color: var(--color-black);
+} */
+
 
 .headtext__cormorant {
   font-family: var(--font-base);

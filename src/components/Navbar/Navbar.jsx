@@ -10,10 +10,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   return (
-  <nav className="app__navbar">
+  <nav className="app__navbar app__bg">
     <div className="app__navbar-logo">
-      {/* <img src={images.gericht} alt="app logo"/> */}
-      <p>Marido De Aluguel</p>
+      {/* <img src={images.marido} alt="app logo"/> */}
+      <p className="p__opensans-logo"><a href="#menu">Marido De Aluguel</a></p>
     </div>
     <ul className="app__navbar-links">
       <li className="p__opensans"><a href="#home">Home</a></li>

@@ -54,7 +54,8 @@
 
 .custom__button {
   /* background-color: #bfbfbf; */
-  background-color: #ff9900;
+  /* background-color: #ff9900; */
+    background-color: #e6b800;
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -127,6 +128,17 @@
   font-size: 30px;
 }
 
+.p__cormorant4 {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 30px;
+}
+
 .p__opensans {
   font-family: var(--font-alt);
   color: var(--color-white);
@@ -165,6 +177,27 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
 }
+
+.headtext__cormorant2 {
+  font-family: var(--font-base);
+  /* color: #ff9900; */
+  color: #e6b800;
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.headtext__cormorant3 {
+  font-family: var(--font-base);
+  /* color: var(--color-black); */
+  color: #e6b800;
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
 
 .spoon__img {
   width: 45px;

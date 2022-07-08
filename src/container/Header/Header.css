@@ -14,6 +14,7 @@
 .app__header-h2 {
   font-family: var(--font-base);
   color: var(--color-black);
+  /* color: #e6b800; */
   letter-spacing: 0.04em;
   line-height: 70px;
   font-size: 45px;

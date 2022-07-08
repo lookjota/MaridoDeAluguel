@@ -2,58 +2,58 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Elétrica',
+    price: '',
+    tags: 'Instalacoes em geral',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Pintura',
+    price: '',
+    tags: 'Impermeabilizacoes',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Bombeiro Hidráulico',
+    price: '',
+    tags: 'encanador e desentupimento',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Montador de Moveis',
+    price: '',
+    tags: 'Desmontamos e montamos tudo na sua casa',
   },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
-  },
+  // {
+  //   title: 'Irish Guinness',
+  //   price: '$26',
+  //   tags: 'IE | 750 ml',
+  // },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Instalação de Drywall',
+    price: '',
+    tags: 'Ideal para Construção e Reforma.',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Piso Flutuante",
+    price: '',
+    tags: 'Pisos Laminados em Diferentes Cores e Modelos. ',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Forro de PVC',
+    price: '',
+    tags: 'com acabamento, branco e colorido',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Pedreiro',
+    price: '',
+    tags: 'Pequenas e Grandes Reformas',
   },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  },
+  // {
+  //   title: 'Negroni',
+  //   price: '$26',
+  //   tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+  // },
 ];
 
 const awards = [

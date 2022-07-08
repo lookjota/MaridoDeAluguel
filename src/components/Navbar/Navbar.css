@@ -23,7 +23,8 @@
 
 .p__opensans-logo {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #ff9900;
+  /* color: #ff9900; */
+  color: #e6b800;
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -54,7 +55,8 @@
 .app__navbar-links li {
   margin: 0 1rem;
   cursor: pointer;
-  color: #ff9900;
+  /* color: #ff9900; */
+  color: #e6b800;
 }
 
 .app__navbar-links li:hover {

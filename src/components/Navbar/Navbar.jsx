@@ -31,8 +31,8 @@ const Navbar = () => {
     <div className="app__navbar-login">
       <a href="#login" className="p__opensans-social_01" ><BsWhatsapp /></a>
       {/* <BsWhatsapp className="app__footer-links_icons"/> */}
-    <div />
-    <a href="/" className="p__opensans-social_02"><FiInstagram /></a>
+    {/* <div /> */}
+    {/* <a href="/" className="p__opensans-social_02"><FiInstagram /></a> */}
       {/* <FiInstagram className="app__footer-links_icons"/> */}
     </div>
   

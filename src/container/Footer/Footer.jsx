@@ -11,7 +11,7 @@ import { images } from '../../constants'
 import './Footer.css';
 
 const Footer = () => (
-  <div className="app__footer section__padding" id="login">
+  <div className="app__footer section__padding" id="contact01">
     {/* <FooterOverlay /> */}
     {/* <Newsletter /> */}
     <div className="app__footer-links">
@@ -30,9 +30,9 @@ const Footer = () => (
         <br />
         <SubHeading title=""  />
         <div className="app__footer-links_icons">
-          <BsWhatsapp />
+          <BsWhatsapp style={{ color: '#00ff00' }} />
           {/* <FiTwitter /> */}
-          <FiInstagram />
+          <FiInstagram style={{ color: '#ff4da6' }} />
         </div>
       </div>
 

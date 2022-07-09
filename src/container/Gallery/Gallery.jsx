@@ -21,11 +21,11 @@ const Gallery = () => {
   }
 
   return (
-  <div className="app__gallery flex__center">
+  <div className="app__gallery flex__center" id="gallery">
     <div className="app__gallery-content">
       <SubHeading title2="Instagram" />
-      <h1 className="headtext__cormorant3" >Galeria</h1>
-      <p className="p__opensans" style={{ color: '#000000', marginTop: '2rem', marginBottom: '2rem' }}>Profissional Faz-Tudo, Marido de Aluguel, Reformas e tudo mais, estamos prontos pra lhe atender!</p>
+      <h1 className="headtext__cormorant4" >Galeria</h1>
+      <p className="p__opensans" style={{ color: '#000000', marginTop: '2rem', marginBottom: '2rem' }}>Profissional faz-tudo, Marido de Aluguel, Reformas e tudo mais, estamos prontos pra lhe atender!</p>
       <button type="button" className="custom__button">Follow</button>
     </div>
 

@@ -144,7 +144,17 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.p__opensans02 {
+  font-family: var(--font-alt);
+  color: var(--color-black);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  /* text-transform: capitalize; */
   line-height: 28px;
   font-size: 16px;
 }
@@ -192,6 +202,18 @@
   font-family: var(--font-base);
   /* color: var(--color-black); */
   color: #e6b800;
+  /* color: var(--color-black); */
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+
+.headtext__cormorant4 {
+  font-family: var(--font-base);
+  /* color: var(--color-black); */
+  /* color: #e6b800; */
+  color: var(--color-black);
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;

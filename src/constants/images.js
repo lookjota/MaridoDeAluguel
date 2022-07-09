@@ -1,6 +1,7 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import chef2 from '../assets/chef2.jpg';
+import chef001 from '../assets/chef001.jpg';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
 import gallery001 from '../assets/gallery001.jpg';
@@ -33,6 +34,7 @@ export default {
   bg,
   chef,
   chef2,
+  chef001,
   G,
   gallery01,
   gallery001,

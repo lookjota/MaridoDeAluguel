@@ -17,7 +17,7 @@ const Header = () => (
       Eletricista, encanador, montador, pintor, pedreiro, instalador ou desemtupidor
       Possuimos serviços em reparos, consertos e reformas para residência, comércio e condomínio. 
       </p>
-      <button type="button" className="custom__button"><a href="#menu">Explore Menu</a></button>
+      <button type="button" className="custom__button"><a href="#menu">Serviços</a></button>
     </div>
 
     <div className="app__wrapper_img">

@@ -1,4 +1,5 @@
 .app__footer {
+
   width: 100%;
   position: relative;
   z-index: 1;
@@ -8,7 +9,7 @@
   align-items: center;
   flex-direction: column;
 
-  background: var(--color-black);
+  background: var(--color-white);
   padding-top: 0;
 }
 
@@ -44,20 +45,34 @@
 }
 
 .app__footer-links_icons svg {
-  color: var(--color-white);
+  color: var(--color-black);
   margin: 0.5rem;
   font-size: 24px;
   cursor: pointer;
 }
 
 .app__footer-links_icons svg:hover {
-  color: var(--color-golden);
+  /* color: var(--color-golden); */
+  color: #e6b800;
 }
 
 .app__footer-headtext {
   font-family: var(--font-base);
-  color: var(--color-white);
+  color: var(--color-black);
   font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-size: 32px;
+  line-height: 41.6px;
+  margin-bottom: 1rem;
+}
+
+.app__footer-headtext01 {
+  font-family: var(--font-base);
+  /* color: var(--color-black); */
+  color: #e6b800;
+  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   font-size: 32px;

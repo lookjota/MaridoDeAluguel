@@ -6,9 +6,9 @@ import { images } from '../../constants'
 import './Chef.css';
 
 const Chef = () => (
-  <div className="app__bg app__wrapper section__padding" >
+  <div className="app__bg app__wrapper section__padding" id="meta">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src={images.chef2} alt="chef_image" />
+      <img src={images.chef001} alt="https://www.freepik.com/photos/maintenance-service" href="https://www.freepik.com/photos/maintenance-service" />
     </div>
 
     <div className="app__wrapper_info">

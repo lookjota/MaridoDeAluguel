@@ -3,9 +3,13 @@ import chef from '../assets/chef.png';
 import chef2 from '../assets/chef2.jpg';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
+import gallery001 from '../assets/gallery001.jpg';
 import gallery02 from '../assets/gallery02.png';
+import gallery002 from '../assets/gallery002.jpg';
 import gallery03 from '../assets/gallery03.png';
+import gallery003 from '../assets/gallery003.jpg';
 import gallery04 from '../assets/gallery04.png';
+import gallery004 from '../assets/gallery004.jpg';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
@@ -31,9 +35,13 @@ export default {
   chef2,
   G,
   gallery01,
+  gallery001,
   gallery02,
+  gallery002,
   gallery03,
+  gallery003,
   gallery04,
+  gallery004,
   knife,
   logo,
   menu,

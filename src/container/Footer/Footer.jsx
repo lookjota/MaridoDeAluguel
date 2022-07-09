@@ -17,7 +17,7 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contatos</h1>
-        <p className='p__opensans02'>Taguatinga sul, Brasilia-DF, Brasil</p>
+        <p className='p__opensans02'>Marido de Aluguel Taguatinga sul, Brasilia-DF.</p>
         <p className='p__opensans02'>+1 212-344-1230</p>
         <p className='p__opensans02'>+1 212-344-1230</p>
       </div>

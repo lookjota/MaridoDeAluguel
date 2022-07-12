@@ -14,7 +14,7 @@ const Header = () => (
       <h1 className="app__header-h2">Christiano Carvalho </h1>
       
       <p className="p__opensans" style={{margin: '2rem 0', color: '#000'}}>
-      Eletricista, encanador, montador, pintor, pedreiro, instalador ou desemtupidor
+      Eletricista, encanador, montador, pintor, pedreiro, instalador ou desemtupidor.
       Possuimos serviços em reparos, consertos e reformas para residência, comércio e condomínio. 
       </p>
       <button type="button" className="custom__button"><a href="#menu">Serviços</a></button>

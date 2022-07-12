@@ -7,7 +7,7 @@ const SubHeading = ({ title, title2, title3 }) => (
     <p className="p__cormorant">{title}</p>
     <p className="p__cormorant2">{title2}</p>
     <p className="p__cormorant3">{title3}</p>
-    <img src={images.machine} alt="machine" className="spoon_img" />
+    <img src={images.machine2} alt="machine2" className="spoon_img" />
   </div>
 );
 

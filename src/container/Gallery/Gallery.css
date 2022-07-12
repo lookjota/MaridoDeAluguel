@@ -47,6 +47,7 @@
   min-width: 301px;
   height: 447px;
   margin-right: 2rem;
+
 }
 
 .gallery__image-icon {
@@ -64,6 +65,8 @@
   object-fit: cover;
   opacity: 1;
   transition: .5s ease;
+  border-radius: 15px;
+
 }
 
 .app__gallery-images_card:hover img {

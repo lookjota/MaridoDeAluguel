@@ -18,6 +18,7 @@ import menu01 from '../assets/menu01.jpg';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import machine from '../assets/machine.svg';
+import machine2 from '../assets/machine2.svg';
 import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
@@ -51,6 +52,7 @@ export default {
   overlaybg,
   spoon,
   machine,
+  machine2,
   welcome,
   findus,
   laurels,

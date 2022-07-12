@@ -4,22 +4,22 @@ const wines = [
   {
     title: 'Elétrica',
     price: '',
-    tags: 'Instalacoes em geral',
+    tags: 'Instalações em geral.',
   },
   {
     title: 'Pintura',
     price: '',
-    tags: 'Impermeabilizacoes',
+    tags: 'Impermeabilizações.',
   },
   {
     title: 'Bombeiro Hidráulico',
     price: '',
-    tags: 'encanador e desentupimento',
+    tags: 'Encanador e desentupimento.',
   },
   {
     title: 'Montador de Moveis',
     price: '',
-    tags: 'Desmontamos e montamos tudo na sua casa',
+    tags: 'Desmontamos e montamos tudo na sua casa.',
   },
   // {
   //   title: 'Irish Guinness',
@@ -32,22 +32,22 @@ const cocktails = [
   {
     title: 'Instalação de Drywall',
     price: '',
-    tags: 'Ideal para Construção e Reforma.',
+    tags: 'Ideal para construção e reforma.',
   },
   {
-    title: "Piso Flutuante",
+    title: "Piso flutuante",
     price: '',
-    tags: 'Pisos Laminados em Diferentes Cores e Modelos. ',
+    tags: 'Pisos laminados em diferentes cores e modelos. ',
   },
   {
     title: 'Forro de PVC',
     price: '',
-    tags: 'com acabamento, branco e colorido',
+    tags: 'Com acabamento branco e colorido.',
   },
   {
     title: 'Pedreiro',
     price: '',
-    tags: 'Pequenas e Grandes Reformas',
+    tags: 'Pequenas e grandes reformas.',
   },
   // {
   //   title: 'Negroni',

@@ -38,7 +38,10 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">Agendar Serviços</button>
+      <button type="button" className="custom__button2" >
+        <a href="https://api.whatsapp.com/send?phone=556199619-5198&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_blank">Pedido de Orçamento</a>
+        {/* <a href="https://web.whatsapp.com/send?phone=556199619-5198" target="_back">Pedido de Orçamento</a> */}
+      </button>
     </div>
 
   </div>

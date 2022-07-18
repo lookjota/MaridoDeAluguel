@@ -7,6 +7,7 @@ import { BsWhatsapp } from 'react-icons/bs'
 
 import { AiOutlineClose } from 'react-icons/ai'
 
+import { images } from '../../constants'
 
 // import images from '../../constants/images'
 import './Navbar.css';
@@ -29,10 +30,14 @@ const Navbar = () => {
     </ul>
     <div className="app__navbar-login">
       {/* <a href="https://wa.me/5561981732307" target="_blank" className="p__opensans-social_01" ><BsWhatsapp /></a> */}
-      <a href="https://api.whatsapp.com/send?phone=556199619-5198&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_blank" className="p__opensans-social_01" ><BsWhatsapp /></a>
+      <a href="https://api.whatsapp.com/send?phone=556199619-5198&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_blank" className="p__opensans-social_01" >
+        <img src={images.whats} alt="" />
+      </a>
       {/* https://web.whatsapp.com/send?phone=5599111112222 */}
     {/* <div /> */}
-    <a href="https://api.instagram.com/handyman.servicos271/" target="_blank" className="p__opensans-social_02"><FiInstagram /></a>
+    <a href="https://api.instagram.com/handyman.servicos271/" target="_blank" className="p__opensans-social_02">
+      <img src={images.insta} alt="" />
+    </a>
       {/* <FiInstagram className="app__footer-links_icons"/> */}
     </div>
     {/* 556199619-5198 */}

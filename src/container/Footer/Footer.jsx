@@ -49,9 +49,9 @@ const Footer = () => (
           </a>
         <h1 className="app__footer-headtext">Contatos</h1>
         <p className='p__opensans02'>Mende uma messagem ou ligue, Contato:</p>
-        <p className='p__opensans03'>061 9 9619-5198</p>
-         <br />
-        <SubHeading title=""  />
+        <a className='p__opensans03'href="tel:061 9 9619-5198">061 9 9619-5198</a>
+        
+        
         <div className="app__footer-links_icons">
           {/* <a href="https://api.whatsapp.com/send?phone=556199619-5198&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento.%20" target="_back">
             <BsWhatsapp style={{ color: '#00ff00' }} />
@@ -76,7 +76,8 @@ const Footer = () => (
         <p className="p__opensans02">Marido de Aluguel - Taguatinga sul, Brasilia-DF.</p>
       </div>
     </div>
-
+    
+    <SubHeading   title=""  />
     <div className="footer__copyright">
       <p className="p__opensans02">2022 Handyman. Todos os direitos reservados.</p>
     </div>

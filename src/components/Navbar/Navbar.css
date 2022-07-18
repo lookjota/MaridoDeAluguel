@@ -23,14 +23,15 @@
 } 
 
 .p__opensans-logo {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Satisfy', cursive, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
   /* color: #ff9900; */
   color: #e6b800;
   font-weight: 400;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 28px;
-  font-size: 30px;
+  font-size: 37px;
 }
 
 .app__opensans-logo a {

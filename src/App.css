@@ -85,6 +85,7 @@
   /* background-color: #bfbfbf; */
   /* background-color: #ff9900; */
     background-color: #e6b800;
+    /* background-color: white; */
     color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
@@ -228,7 +229,7 @@
   font-size: 22px;
 }
 
-.p__opensans03:hover {
+.p__opensans03 a:hover{
   transform: scale(1.15);
   transition: all 0.2s ease-in;
 }
@@ -247,7 +248,8 @@
 .headtext__cormorant2 {
   font-family: var(--font-base);
   /* color: #ff9900; */
-  color: #e6b800;
+  /* color: #e6b800; */
+  color: var(--color-white);
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;

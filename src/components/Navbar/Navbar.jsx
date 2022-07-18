@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
   <nav className="app__navbar app__bg" >
     <div className="app__navbar-logo">
-      <p className="p__opensans-logo"><a href="#menu">HANDYMAN</a></p>
+      <p className="p__opensans-logo"><a href="#menu">Handyman</a></p>
     </div>
     <ul className="app__navbar-links">
       <li className="p__opensans"><a href="#home">Sobre</a></li>

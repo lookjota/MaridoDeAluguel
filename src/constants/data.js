@@ -1,5 +1,3 @@
-import images from './images';
-
 const wines = [
   {
     title: 'Elétrica',
@@ -21,11 +19,7 @@ const wines = [
     price: '',
     tags: 'Desmontamos e montamos tudo na sua casa.',
   },
-  // {
-  //   title: 'Irish Guinness',
-  //   price: '$26',
-  //   tags: 'IE | 750 ml',
-  // },
+
 ];
 
 const cocktails = [
@@ -49,34 +43,8 @@ const cocktails = [
     price: '',
     tags: 'Pequenas e grandes reformas.',
   },
-  // {
-  //   title: 'Negroni',
-  //   price: '$26',
-  //   tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
-  // },
+
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
-  },
-];
 
-export default { wines, cocktails, awards };
+export default { wines, cocktails };
